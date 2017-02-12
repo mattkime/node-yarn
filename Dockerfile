@@ -1,4 +1,4 @@
-FROM node:7.5
+FROM node:7.5.0
 
 RUN mkdir /opt/yarn
 RUN wget https://yarnpkg.com/downloads/0.19.1/yarn-v0.19.1.tar.gz -O /tmp/yarn.tar.gz && \
